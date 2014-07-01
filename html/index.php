@@ -8,6 +8,9 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,13 +20,31 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Banners</h1>
+    
     <div class="container">
     	<div class="col-lg-12 text-center">
-        	
+        	<h1>Banners</h1>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li><img src="img/banner.gif" /></li>
+                </ul>
+            </div>
         </div>
     </div>
     <hr>
+    <div class="clearfix"></div>
+    <div class="container">
+    	<div class="col-lg-12 text-center">
+        	<h1>Mailings</h1>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li><img src="img/banner.gif" /></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
     
 
 
@@ -31,5 +52,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    
+	<script defer src="js/jquery.flexslider.js"></script>
+
+	<script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+      });
+    });
+    </script>
+    
+    
   </body>
 </html>
