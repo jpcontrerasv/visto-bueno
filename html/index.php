@@ -20,32 +20,40 @@
     <![endif]-->
   </head>
   <body>
+    <header class="box fwidth">
+    	<div class="container-fluid">
+        	<div class="col-lg-12 text-center">
+		    	<img src="img/logo-wannabi.gif" alt="">
+        	</div>
+        </div>
+    </header>
     
-    <div class="container">
-    	<div class="col-lg-12 text-center">
-        	<h1>Banners</h1>
-            <div class="flexslider">
-                <ul class="slides">
-                    <li><img src="img/banner.gif" /></li>
-                </ul>
-            </div>
+    <div class="container-fluid">
+    	<div class="col-lg-10 col-lg-offset-1 text-center img-post">
+        
+        	<section class="container-fluid titulo">
+            	<div class="col-lg-2 text-right">
+                	<p>Nombre de la entrega</p>
+                </div>
+            	<div class="col-lg-4 text-left">
+                	<p><strong>Banner Drugstore - 01</strong></p>
+                </div>
+            	<div class="col-lg-2 text-right">
+                	<p>Fecha de la entrega</p>
+                </div>
+            	<div class="col-lg-4 text-left">
+                	<p><strong>01 / 01 / 2014</strong></p>
+                </div>
+            </section>
+            
+            <div class="clearfix"></div>
+            <ul class="slides">
+                <li><img src="img/banner.gif" /></li>
+                <li><img src="img/banner.gif" /></li>
+            </ul>
         </div>
     </div>
     <hr>
-    <div class="clearfix"></div>
-    <div class="container">
-    	<div class="col-lg-12 text-center">
-        	<h1>Mailings</h1>
-            <div class="flexslider">
-                <ul class="slides">
-                    <li><img src="img/banner.gif" /></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <hr>
-    
-    
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
