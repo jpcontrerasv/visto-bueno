@@ -43,8 +43,9 @@ a:focus {
 }
 
 header {
-	background:url(img/back-body.png) repeat;
+	background:url(img/back-body.png) repeat fixed;
 	padding:8px 0px;
+	
 }
 header img{
 	width:4%;

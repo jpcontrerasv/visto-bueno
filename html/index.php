@@ -49,7 +49,6 @@
             <div class="clearfix"></div>
             <ul class="slides">
                 <li><img src="img/banner.gif" /></li>
-                <li><img src="img/banner.gif" /></li>
             </ul>
         </div>
     </div>
@@ -65,9 +64,14 @@
 
 	<script type="text/javascript">
     $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-      });
+		$('.flexslider').flexslider({
+			animation: "slide",
+		});
+	
+		$('.jquery-note').jQueryNotes({
+			maxNotes: 10
+		});
+
     });
     </script>
     
